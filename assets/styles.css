@@ -1,0 +1,42 @@
+    #Ai {
+      display: none;
+      position: absolute;
+      /* top: 5px;
+      left: 20px; */
+    }
+    .folder-container {
+      position: relative;
+      display: inline-block;
+    }
+
+    #base-folder {
+      display: block;
+      width: 800px;
+      height: auto;
+    }
+
+    .folder-container img.overlay {
+      position: absolute;
+      pointer-events: none;
+    }
+
+    #bonzi {
+      top: 475px;
+      left: 50px;
+      width: 325px;
+    }
+    #clippy-jpg {
+      top: 295px;
+      left: 345px;
+      width: 225px;
+    }
+    #clippy-bmp {
+      top: 325px;
+      left: 550px;
+      width: 200px;
+    }
+    #clippy-gif {
+      top: 140px;
+      left: 450px;
+      width: 250px;
+    }
