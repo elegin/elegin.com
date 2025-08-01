@@ -1,3 +1,8 @@
-var img = new Image();
-img.src = 'https://elegin.com/images/image.png';
-document.getElementById('mydiv').appendChild(img);
+function toggleDiv() {
+  const div = document.getElementById('Ai');
+  if (div.style.display === 'none' || div.style.display === '') {
+    div.style.display = 'block'; // Show the div
+  } else {
+    div.style.display = 'none'; // Hide the div
+  }
+}
