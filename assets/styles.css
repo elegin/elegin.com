@@ -1,8 +1,7 @@
     #Ai {
       display: none;
       position: absolute;
-      /* top: 5px;
-      left: 20px; */
+      top: -25;
     }
     .folder-container {
       position: relative;
@@ -39,4 +38,5 @@
       top: 140px;
       left: 450px;
       width: 250px;
+
     }
